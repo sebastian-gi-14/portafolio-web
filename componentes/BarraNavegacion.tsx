@@ -13,7 +13,7 @@ export default function BarraNavegacion() { /* export sirve para que todos los a
     /* hover:text-white transition-colors: Pasando el mouse sobre las letras grises estas se iluminen en blanco. */
 
 
-    <nav className="w-full py-6 px-8 flex justify-between items-center bg-zinc-950 text-white border-b border-zinc-800">
+    <nav className="fixed w-full z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800 flex flex-col sm:flex-row justify-between items-center px-8 py-4 sm:py-6 gap-4 sm:gap-0">
       
       {/* Logotipo o Nombre del Ingeniero */}
       <div className="text-xl font-bold tracking-widest">

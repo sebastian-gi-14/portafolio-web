@@ -7,8 +7,8 @@ export default function Contacto() {
         {/* Columna Izquierda: Mensaje de invitación */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Empecemos a <span className="text-[#D4AF37]">construir.</span></h1>
-          <p className="text-zinc-400 text-lg leading-relaxed mb-8">
-            Actualmente estoy abierto a nuevas oportunidades laborales, roles de entrada (entry-level) o proyectos freelance. Si tu equipo busca un desarrollador versátil, o si tienes un problema de infraestructura que resolver, hablemos.
+          <p className="text-zinc-400 text-lg  text-justify leading-relaxed mb-8" >
+            Actualmente me encunetro con libertad a nuevas oportunidades laborales en proyectos de desarrollo y arquitectura. Si tu equipo busca un desarrollador versátil, o si tienes un problema de infraestructura que resolver, contactame.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Contacto() {
 
           {/* Tarjeta de LinkedIn (Puedes actualizar el enlace de href más tarde) */}
           <a 
-            href="https://linkedin.com/" 
+            href="https://www.linkedin.com/in/sebastian-gonzalez-ibarra-758533429/" 
             target="_blank"
             className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 hover:border-[#D4AF37] transition-all duration-300 group"
           >
@@ -45,10 +45,8 @@ export default function Contacto() {
               Conectar profesionalmente
             </p>
           </a>
-
         </div>
       </div>
-
     </main>
   );
 }

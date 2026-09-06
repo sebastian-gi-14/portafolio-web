@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+/* son instrucciones directas para los "bots" de Google y Bing. 
+Les dicen categóricamente que tienen prohibido leer la página, prohibido seguir sus enlaces y prohibido mostrarla en los 
+resultados de búsqueda. */
 export const metadata: Metadata = {
   title: "Sebastián - Portafolio TI",
   description: "Portafolio profesional de ingeniería en tecnologías de la información.",
