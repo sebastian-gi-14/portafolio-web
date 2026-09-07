@@ -3,7 +3,7 @@ import { SiNextdotjs, SiReact, SiTailwindcss, SiJavascript, SiSwift, SiXcode, Si
 
 export default function Inicio() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-white flex flex-col items-center pt-20 lg:pt-24 px-8 pb-20">
+    <main className="min-h-screen text-white flex flex-col pt-40 sm:pt-32 lg:pt-24 px-8 pb-10 overflow-x-hidden items-center">
 
       {/* Contenedor principal: divide la pantalla en 1 columna en celulares y 2 en computadoras (md:grid-cols-2) */}
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
@@ -135,7 +135,7 @@ export default function Inicio() {
 
           {/* Tarjeta 3: Redes e Infraestructura */}
           <div className="group bg-zinc-900/30 backdrop-blur-md rounded-3xl p-8 border border-zinc-800 hover:border-[#D4AF37]/50 hover:shadow-[0_0_30px_rgba(212,175,55,0.1)] transition-all duration-500 lg:row-span-2">
-            <h3 className="text-lg tracking-widest text-zinc-400 mb-6 font-bold group-hover:text-zinc-200 transition-colors">REDES & INFRAESTRUCTURA</h3>
+            <h3 className="text-lg tracking-widest text-zinc-400 mb-6 font-bold group-hover:text-zinc-200 transition-colors">REDES E INFRAESTRUCTURA</h3>
             <div className="grid grid-cols-1 gap-3">
               <div className="bg-zinc-950/50 p-3 rounded-xl border border-zinc-800/50 flex items-center gap-3">
                 <FaNetworkWired className="text-xl text-zinc-500 group-hover:text-[#D4AF37] transition-colors" />
@@ -189,6 +189,14 @@ export default function Inicio() {
 
         </div>
       </div>
+
+      {/* Footer Minimalista */}
+      <footer className="w-full max-w-6xl border-t border-zinc-800/50 py-8 mt-12 text-center flex flex-col items-center">
+        <p className="text-zinc-500 text-sm">© 2026 Sebastián González Ibarra. Todos los derechos reservados.</p>
+        <p className="text-zinc-600 text-xs mt-2 font-mono">Construido con Next.js & Tailwind CSS.</p>
+      </footer>
+
+      
     </main>
   );
 }

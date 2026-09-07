@@ -2,7 +2,7 @@ import { FaGithub, FaExternalLinkAlt, FaTools } from "react-icons/fa";
 
 export default function Proyectos() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-white pt-32 px-8 pb-20 flex flex-col items-center">
+    <main className="min-h-screen text-white pt-32 px-8 pb-20 flex flex-col items-center">
       
       <div className="max-w-6xl w-full">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -30,7 +30,7 @@ export default function Proyectos() {
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">MySQL</span>
             </div>
             <div className="flex gap-4">
-              <a href="#" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
+              <a href="https://github.com/sebastian-gi-14/tesco-plataforma-academica.git" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function Proyectos() {
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">Firebase</span>
             </div>
             <div className="flex gap-4">
-              <a href="#" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
+              <a href="https://github.com/sebastian-gi-14/ludofracc-ios.git" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function Proyectos() {
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">REST APIs</span>
             </div>
             <div className="flex gap-4">
-              <a href="#" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
+              <a href="https://github.com/sebastian-gi-14/autofid-android.git" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
             </div>
           </div>
 
@@ -86,6 +86,9 @@ export default function Proyectos() {
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">VLANs</span>
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">VoIP</span>
             </div>
+            <div className="flex gap-4">
+              <a href="https://github.com/sebastian-gi-14/red-corporativa-packet-tracer.git" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
+            </div>
           </div>
 
           {/* 5. Auditoría SQL (Bases de Datos) */}
@@ -101,6 +104,9 @@ export default function Proyectos() {
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">SQL</span>
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">Arquitectura</span>
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">Normalización</span>
+            </div>
+            <div className="flex gap-4">
+              <a href="https://github.com/sebastian-gi-14/auditoria-sql-3nf.git" className="text-zinc-500 hover:text-[#D4AF37] transition-colors"><FaGithub size={20} /></a>
             </div>
           </div>
 
@@ -122,6 +128,7 @@ export default function Proyectos() {
               <span className="text-xs bg-zinc-950 border border-zinc-800 px-2 py-1 rounded-md text-zinc-300">Docker</span>
             </div>
           </div>
+
 
         </div>
       </div>

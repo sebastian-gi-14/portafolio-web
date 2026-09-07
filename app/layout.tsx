@@ -37,13 +37,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className={`${geistSans.className} bg-zinc-950 text-white min-h-full flex flex-col`}>
+
+        {/* Fondo animado global */}
+        <div className="bg-tech-grid"></div>
 
         {/* Dentro de Body llamamos la función */}
         <BarraNavegacion />
 
         {children}
-        </body>
+        
+      </body>
     </html>
   );
 }

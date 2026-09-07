@@ -1,6 +1,6 @@
 export default function Contacto() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-white pt-32 px-8 pb-20 flex items-center justify-center">
+    <main className="min-h-screen text-white pt-32 px-8 pb-20 flex items-center justify-center">
       
       <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         
