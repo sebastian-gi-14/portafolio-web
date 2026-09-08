@@ -3,7 +3,7 @@ import { SiNextdotjs, SiReact, SiTailwindcss, SiJavascript, SiSwift, SiXcode, Si
 
 export default function Inicio() {
   return (
-    <main className="min-h-screen text-white flex flex-col pt-40 sm:pt-32 lg:pt-24 px-8 pb-10 overflow-x-hidden items-center">
+    <main className="min-h-screen text-white landscape:pt-24 flex flex-col pt-40 sm:pt-32 lg:pt-24 px-8 pb-10 overflow-x-hidden items-center">
 
       {/* Contenedor principal: divide la pantalla en 1 columna en celulares y 2 en computadoras (md:grid-cols-2) */}
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
@@ -59,7 +59,7 @@ export default function Inicio() {
         {/* Columna Derecha: Fotografía Profesional */}
         <div className="flex justify-center lg:justify-end lg:col-span-5">
           {/* Contenedor de la foto con borde dorado tenue y un ligero resplandor (sombra) */}
-          <div className="relative w-72 h-72 lg:w-[400px] lg:h-[400px] rounded-full border-4 border-[#D4AF37]/30 overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)]">
+          <div className="relative w-72 h-72 landscape:w-100 landscape:h-100 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-full border-4 border-[#D4AF37]/30 overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)]">
             <img
               src="/perfil.jpg"
               alt="Sebastián - Ingeniero en TI"
